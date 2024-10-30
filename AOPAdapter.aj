@@ -25,3 +25,4 @@ public aspect AOPAdapter {
         // Continuar la ejecución del método con los argumentos modificados
         return  joinPoint.proceed(args);
     }
+}
